@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Blog</a></li>
+                    </ul>
+                </div>
+                <img class="h-28" src="https://i.ibb.co/Mc7R0Bc/Untitled-design-4.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>About us</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn btn-accent text-white">Get Started</a>
+            </div>
+        </div>
+    </header>
+    <!-- top header -->
+    <div class="lg:flex">
+        <div class="lg:w-1/2 lg:p-28 p-6">
+            <div>
+                <h1 class="text-3xl lg:text-3xl font-extrabold">Elevate Your Space Uncover Comfort
+                    <br>
+                    <h1 class="text-[#587581] text-4xl mt-3 font-extrabold">Embrace Style</h1>
+                </h1>
+                <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae veniam
+                    molestiae, ut animi
+                    magni nisi quo distinctio doloribus unde dicta eum impedit perferendis aperiam. Nesciunt ratione ad
+                    assumenda quam?</p>
+            </div>
+            <div class="mt-10 flex gap-10">
+                <button class="btn btn-accent text-white">Get Started</button>
+                <button class="btn btn-outline btn-accent">Login</button>
+            </div>
+        </div>
+        <div class="lg:w-1/2 grid justify-items-center">
+            <img src="https://i.ibb.co/0C2VbQt/Untitled-design-3.png" alt="">
+        </div>
+    </div>
+    <!-- popular product -->
+    <div>
+        <div class="text-center">
+            <h1 class="text-black text-4xl mt-3 font-bold">Popular Products</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel ipsam, <br>voluptates
+                similique rerum nobis
+                voluptas mollitia tenetur</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 justify-items-center mt-5 p-10">
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://www.ikea.com/us/en/images/products/morabo-sofa-grann-bomstad-white-wood__0321024_pe514774_s5.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Sofa</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as2.ftcdn.net/v2/jpg/04/23/65/57/1000_F_423655780_VSZ03nlUy0s1RP39cRWUHLj2bbWi2ebO.jpg" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Sofa</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quas, officiis illum vero tempore quae molestiae eos</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as2.ftcdn.net/v2/jpg/06/19/69/85/1000_F_619698590_AbgZrYCfIM50DVU3BcATYdoVIbrscO2j.webp"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Gray Scandinavian armchair </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatum quibusdam minima.</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as1.ftcdn.net/v2/jpg/06/63/13/48/1000_F_663134865_DhC0TECDgnHnQqMIwrKQO0vwnhf3KVSf.webp"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">wooden chair</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maxime nisi reprehenderit, eaque cumque eum sint incidunt?</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 justify-items-center mt-5 p-10">
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as2.ftcdn.net/v2/jpg/03/03/92/01/1000_F_303920112_Qg6w8w2Brjnqex7AGJpsZlaI8IWa1lzH.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Orange lounge armchair</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus est, sequi porro voluptas provident </p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as1.ftcdn.net/v2/jpg/02/98/83/02/1000_F_298830220_lHqS0oOJMOZ8F8ld7z7ZeAdZDv1Gt02U.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Green velvet modern chair</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequatur veniam non.</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as2.ftcdn.net/v2/jpg/05/69/32/77/1000_F_569327793_XFAj8vqaD2IOiRGaqXzOKg75VyGDkxLK.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">violet velvet modern chair</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero saepe eligendi in obcaecati omnis natus quisquam </p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as1.ftcdn.net/v2/jpg/05/70/22/76/1000_F_570227697_jTOZ1kAoY4GVcCmnT5fARhiM79PSguVl.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">blue velvet modern chair</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo illum eos amet voluptate.</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-outline btn-success">See more</button>
+        </div>
+    </div>
+    <!-- categories -->
+    <div class="lg:mt-10">
+        <div class="text-center p-5">
+            <h1 class="text-black text-4xl mt-5 font-bold">Categories</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel ipsam, <br>voluptates
+                similique rerum nobis
+                voluptas mollitia tenetur</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-6 justify-items-center mt-5 mb-5 p-10 gap-10">
+            <div class="flex rounded-full border border-black p-2 w-[240px] hover:bg-accent hover:text-white">
+                <img class="h-12 w-12 rounded-full bg-white" src="https://i.ibb.co/CJvYynb/580b57fcd9996e24bc43c270.png"
+                    alt="">
+                <div class="ml-3 mr-3">
+                    <h1 class="font-bold">Chair</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div class="flex rounded-full border border-black p-2 w-[240px] hover:bg-accent hover:text-white">
+                <img class="h-12 w-12 rounded-full bg-white" src="https://as1.ftcdn.net/v2/jpg/00/80/52/82/1000_F_80528290_y071OSofNEtHrJ5keA7gaNvPIAWTX9kL.jpg"
+                    alt="">
+                <div class="ml-3 mr-3">
+                    <h1 class="font-bold">Sofa</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div class="flex rounded-full border border-black p-2 w-[240px] hover:bg-accent hover:text-white">
+                <img class="h-12 w-12 rounded-full bg-white" src="https://as2.ftcdn.net/v2/jpg/04/26/64/71/1000_F_426647137_b3KAfsg1uT7jegEZTgI8313MCPcTYUvz.jpg"
+                    alt="">
+                <div class="ml-3 mr-3">
+                    <h1 class="font-bold">Shelf</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div class="flex rounded-full border border-black p-2 w-[240px] hover:bg-accent hover:text-white">
+                <img class="h-12 w-12 rounded-full bg-white" src="https://as1.ftcdn.net/v2/jpg/00/77/24/74/1000_F_77247404_dTZaGThNyXtFUQDwTzCCyQOq6M0eS3uw.jpg"
+                    alt="">
+                <div class="ml-3 mr-3">
+                    <h1 class="font-bold">Clock</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div class="flex rounded-full border border-black p-2 w-[240px] hover:bg-accent hover:text-white">
+                <img class="h-12 w-12 rounded-full bg-white" src="https://admin.regalfurniturebd.com/storage/uploads/fullsize/2022-04/wdh-f-1.jpg"
+                    alt="">
+                <div class="ml-3 mr-3">
+                    <h1 class="font-bold">Wardrobe</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div class="flex rounded-full border border-black p-2 w-[240px] hover:bg-accent hover:text-white">
+                <img class="h-12 w-12 rounded-full bg-white" src="https://admin.regalfurniturebd.com/storage/uploads/fullsize/2023-06/dth-357.jpg"
+                    alt="">
+                <div class="ml-3 mr-3">
+                    <h1 class="font-bold">Dressing table</h1>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Best product -->
+    <div class="lg:mt-10">
+        <div class="text-center p-5">
+            <h1 class="text-black text-4xl mt-3 font-bold">Best Selling Products</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel ipsam, <br>voluptates
+                similique rerum nobis
+                voluptas mollitia tenetur</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 justify-items-center mt-5 p-10">
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://www.ikea.com/us/en/images/products/morabo-sofa-grann-bomstad-white-wood__0321024_pe514774_s5.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Sofa</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as2.ftcdn.net/v2/jpg/04/23/65/57/1000_F_423655780_VSZ03nlUy0s1RP39cRWUHLj2bbWi2ebO.jpg" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Sofa</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quas, officiis illum vero tempore quae molestiae eos</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as2.ftcdn.net/v2/jpg/03/03/92/01/1000_F_303920112_Qg6w8w2Brjnqex7AGJpsZlaI8IWa1lzH.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Orange lounge armchair</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus est, sequi porro voluptas provident </p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 bg-base-100 shadow-2xl">
+                <figure><img class="h-44"
+                        src="https://as1.ftcdn.net/v2/jpg/02/98/83/02/1000_F_298830220_lHqS0oOJMOZ8F8ld7z7ZeAdZDv1Gt02U.jpg"
+                        alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Green velvet modern chair</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequatur veniam non.</p>
+                    <div class="flex justify-between mt-5">
+                        <p class="text-xl font-bold mt-3">$39.99</p>
+                        <button class="btn btn-accent text-white">Add to cart </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-outline btn-success">See more</button>
+        </div>
+    </div>
+    <!-- customer -->
+    <div class="lg:mt-10">
+        <div class="text-center p-5">
+            <h1 class="text-black text-4xl mt-10 font-bold">Customers say about us</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel ipsam, <br>voluptates
+                similique rerum nobis
+                voluptas mollitia tenetur</p>
+        </div>
+        <div class="lg:flex">
+            <div class="lg:w-1/2 p-6">
+                <img src="https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg"
+                    alt="">
+            </div>
+            <div class="lg:w-1/2 lg:p-6 grid justify-items-center">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="https://trevor-smith.github.io/images/amazon_review_sample.png" class="w-full p-10" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle bg-accent">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-accent">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="https://images.fastcompany.com/upload/610-loosenut.jpg" class="w-full p-10" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle bg-accent">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-accent">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="https://images.fastcompany.com/upload/610-zombie-killer.jpg" class="w-full p-10" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle bg-accent">❮</a>
+                            <a href="#slide4" class="btn btn-circle bg-accent">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="https://images.fastcompany.com/upload/610-rudy-escobar.jpg" class="w-full p-10" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle bg-accent">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-accent">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- keep in touch -->
+    <div class="lg:mt-10">
+        <div class="text-center p-5">
+            <h1 class="text-black text-4xl mt-3 font-bold">Keep in touch</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel ipsam, <br>voluptates
+                similique rerum nobis
+                voluptas mollitia tenetur</p>
+        </div>
+        <div class="p-2 lg:p-20">
+            <div class="rounded-[50px]"
+                style="background-image: url('https://7xm.xyz/shutterstock/images/7xm.xyz146615.jpg'); height: 300px; background-size: cover;">
+                <div class="bg-[#0000008a] h-full rounded-[50px] text-white text-center">
+                    <h1 class="font-bold text-2xl lg:text-3xl pt-16">Get Our Promo Code By Subscribing <br> To Our Newsletter</h1>
+
+                    <div class="join mt-10">
+                        <input class="input input-bordered join-item text-black" placeholder="Email" />
+                        <button class="btn join-item rounded-xl bg-[#f5ca56]">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- footer -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <aside>
+            <img class="h-28" src="https://i.ibb.co/Mc7R0Bc/Untitled-design-4.png" alt="">
+            <p>Furnisha<br />Providing reliable tech since 1992</p>
+        </aside>
+        <nav>
+            <header class="footer-title">Services</header>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <header class="footer-title">Company</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <header class="footer-title">Legal</header>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
